@@ -16,3 +16,23 @@ fahrenheit = Math.floor(fahrenheit)
 //console.log
 console.log(`The ${fahrenheit} degrees Fahrenheit`)
 console.log(`The ${newton} degrees Newton`)
+
+// // DOG YEARS
+//constant age - human age
+const myAge = 34;
+//i guess this is multiplying it by two?
+var earlyYears = 2;
+//
+earlyYears *= 10.5;
+//later years of a dog 
+let laterYears = myAge - 2;
+
+laterYears *= 4;
+
+console.log(earlyYears);
+console.log(laterYears);
+//combining earlyYears to laterYears to create dog years
+myAgeInDogYears = earlyYears + laterYears;
+// creating a variable for my name
+var name = 'Ryan';
+console.log(`my name is ${name}. I am ${myAge} years old in human years, which is ${myAgeInDogYears} years old in dog years.`)
