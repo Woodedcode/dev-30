@@ -73,3 +73,21 @@ console.log(eightBall)
 
 
 
+// //RACE DAY
+// let raceNumber = Math.floor(Math.random() * 1000);
+let registerEarly = false;
+let runnerAge = 18
+
+if (registerEarly && runnerAge > 18) {
+    raceNumber += 1000
+}
+
+if (registerEarly && runnerAge > 18){
+    console.log(`Adults run at 9:30 am and your race number is ${raceNumber}`)
+} else if (!registerEarly && runnerAge > 18) {
+    console.log(`Late Adults run at 11:00 am and your race number is ${raceNumber}`)
+} else if (runnerAge < 18) {
+    console.log(`Youth run at 12:30 am and your race number is ${raceNumber}`)
+} else {
+    console.log('PLEASE REGISTER')
+}
