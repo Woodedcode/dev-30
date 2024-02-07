@@ -255,3 +255,35 @@ for (let i = 0; i < input.length; i++) {
 
 const resultString = resultArray.join(' ').toUpperCase();
 console.log(resultString)
+
+
+
+// // ARRAY METHODS
+
+var array = ['a', 'b', 'c'];
+
+array.forEach(function (i) {
+    console.log(i)
+})
+
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i]
+
+//     console.log(element)
+// }
+
+var myCallBackFunction = function (i) {
+    console.log(i)
+}
+ 
+var greet = function (func) {
+    func()
+};
+
+greet(function () {
+    console.log('Hello!')
+});
+
+greet(function ()  {
+    console.log('Sup')
+})
